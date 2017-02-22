@@ -1,12 +1,12 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {FormsModule} from '@angular/forms';
+import {HttpModule} from '@angular/http';
 
-import { AppComponent } from './app.component';
-import { HeroComponent } from './hero/hero.component';
-import { HeroBadgeComponent } from './hero-badge/hero-badge.component';
-import { TitleComponent } from './title/title.component';
+import {AppComponent} from './app.component';
+import {HeroComponent} from './hero/hero.component';
+import {HeroBadgeComponent} from './hero-badge/hero-badge.component';
+import {TitleComponent} from './title/title.component';
 
 @NgModule({
   declarations: [
@@ -23,4 +23,5 @@ import { TitleComponent } from './title/title.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
