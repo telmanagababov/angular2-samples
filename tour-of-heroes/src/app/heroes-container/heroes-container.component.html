@@ -1,0 +1,9 @@
+<ul class="heroes">
+  <app-hero-badge *ngFor="let hero of heroes"
+    [model]="hero"
+    [isSelected]="hero===selectedHero"
+    (click)="onSelect(hero)">
+  </app-hero-badge>
+</ul>
+
+<app-hero *ngIf="selectedHero" [model]="selectedHero"></app-hero>
