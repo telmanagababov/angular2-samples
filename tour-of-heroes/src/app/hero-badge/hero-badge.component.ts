@@ -1,5 +1,5 @@
 import {Component, OnInit, Input} from '@angular/core';
-import {Hero} from '../hero/hero.model';
+import {Hero} from '../model/hero.model';
 
 @Component({
   selector: 'app-hero-badge',
@@ -7,7 +7,6 @@ import {Hero} from '../hero/hero.model';
   styleUrls: ['./hero-badge.component.css']
 })
 export class HeroBadgeComponent implements OnInit {
-  @Input() isSelected: boolean;
   @Input() model: Hero;
 
   constructor() {

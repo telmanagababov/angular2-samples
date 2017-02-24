@@ -1,3 +1,5 @@
-<li class="hero-badge" [class.selected]="isSelected">
-  <span class="badge">{{model.id}}</span> {{model.name}}
-</li>
+<a class="hero-badge" [routerLink]="['/detail', model.id]">
+  <div class="col-1-4">
+    <span class="badge">{{model.id}}</span> {{model.name}}
+  </div>
+</a>
